@@ -3,6 +3,8 @@ This is the config I use on my own personal computer and is very keyboard orient
 Since Ubuntu is the distro I tend to use the most, the commands are adapted to it.
 It should not be too difficult to adapt them to Arch distros.
 
+*This is still a work in progress, I am planning to add some screenshots and tmux configs*
+
 ## Basic setup
 The main tools I use for my workflow are `nvim`, `i3` and `kitty`.
 
