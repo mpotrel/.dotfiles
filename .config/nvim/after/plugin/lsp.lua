@@ -10,6 +10,8 @@ lsp.ensure_installed({
 	'tsserver',
 	'rust_analyzer',
 	'pyright',
+    'gopls',
+    'marksman',
 })
 
 local cmp = require('cmp')
