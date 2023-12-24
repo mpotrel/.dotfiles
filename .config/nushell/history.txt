@@ -1,0 +1,370 @@
+nv .conf
+nv .config/leftwm/config.ron
+kitty
+bash
+vim $nu.config
+zsh
+$nu.path
+$nu.env-path
+vim $nu.config-path
+$env
+zsh
+nvim
+vim $nu.env-path
+cd dev
+ll
+ls
+git clone https://github.com/elkowar/eww<\n>
+cd eww
+cargo build --release --no-default-features --features x11<\n>
+cargo build --release --no-default-features --features=wayland<\n>
+cd target/release<\n>
+chmod +x ./eww
+ll
+ls
+ls 
+ls build
+find . -name 'eww'
+find . --name 'eww'
+find --help
+find . eww
+find . build
+tree
+ls
+eww
+ls
+cd ..
+ls
+cd ..
+ls
+cd
+target/release
+cd target
+cd dev/eww/target/release/
+ll
+ls
+cd
+cd dev/eww/target/release/
+ls
+cd deps
+ls
+cd ..
+ls
+cd examples/
+ls
+cd ../..
+cd ..
+cargo build --release --no-default-features --features=wayland<\n>
+sudo pacman -Sy pkg-config
+cargo build --release --no-default-features --features=wayland<\n>
+sudo pacman -Sy gtk-layer-shell gtk-layer-shell-devel
+sudo pacman -Sy gtk-layer-shell
+cargo build --release --no-default-features --features=wayland<\n>
+cd target/release/
+chmod +x ./eww
+./eww daemon
+cd dev/eww/target/release/
+ls 
+./eww
+./eww daemon
+firefoc
+firefox
+chromium
+ping google.com
+chromium
+reboot
+which firefox
+sudo pacman -Syu
+sudo pacman -Sy partitionmanager
+sudo pacman -Syu 
+sudo pacman -Syy
+sudo pacman -Syu 
+sudo pacman -Syy 
+sudo pacman -Syu 
+sudo pacman -Syu -y 
+sudo pacman -Syu --yes
+sudo pacman -Syu  
+xdg-open google.com
+logout
+cd dev
+git clone --recursive https://github.com/hyprwm/Hyprland<\n>cd Hyprland<\n>make all && sudo make install
+cd
+cd dev
+ls
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd hy
+cd Hyprland/
+make all
+hyprland-git (AUR) - compiles from latest source<\n>hyprland - binary x86 tagged release
+yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+pacman -S --needed git base-devel
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd
+mv yay dev/yay
+cd dev/yay
+makepg -si
+makepkg -si
+yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio
+cd ..
+cd hy
+cd Hyprland/
+ls
+make all
+sudo make all
+make legacyrenderer
+sudo make legacyrenderer
+sudo pacman -S wlroots
+sudo make all
+sudo make legacyrenderer
+sudo pacman -Syu wlroots
+sudo make all
+gcc --version
+sudo pacman -Syu gcc
+gcc --version
+yay -S gcc
+yay -S gcc13
+yay -S gcc132
+sudo pacman -Si gcc
+sudo pacman -Syy
+sudo pacman -Syu gcc
+clang --version
+export CXXFLAGS="-stdlib=libstdc++"<\n>sudo make all<\n>
+CXXFLAGS="-stdlib=libstdc++" sudo make all
+ls
+vim Ma
+vim Makefile
+sudo make all
+vim Makefile
+sudo make all
+sudo make legacyrenderer
+cd ..
+sudo pacman -Syu sway
+bemenu
+sudo pacman -Syu bemenu
+bemenu
+bmenu-run
+sudo pacman -S freetype2 harfbuzz cairo pango wayland libxkbcommon
+sudo pacman -S meson scdoc wayland-protocols
+yay -S tofi
+tofi
+tofi-run
+la
+ls -a
+mkdir -p ~/.config/sway<\n>cp /etc/sway/config ~/.config/sway/<\n>$EDITOR ~/.config/sway/config
+mkdir -p ~/.config/sway<\n>cp /etc/sway/config ~/.config/sway/
+mkdir -p ~/.config/sway
+mkdir ~/.config/sway
+cp /etc/sway/config .config/sway/
+cd .config/sway
+nv ,
+nv .
+cd /usr/share/backgrounds/sway/
+ll
+ls
+cd .config/sway
+nv .
+nvim .
+cd dev
+cargo new todotui
+cd todotui/
+cargo add chrono
+sudo pacman -Syu
+pacman -Sy keepassxc
+sudo pacman -Sy keepassxc
+ssh-keygen -t ed25519 -C "manu.potrel@gmail.com"
+firefox
+cd Downloads/
+open feuillematchvaureal.pdf
+sudo pacman -Syu
+chromium 
+firefox
+chromium
+yay -S waybar
+sudo pacman -Sy otf-font-awesome
+nvim .config/
+ll .config
+ls .config
+sudo pacman -Sy ttf-jetbrains-mono
+cd .config
+mkdir waybar
+cd waybar
+nvim .
+nvim style.css
+waybar
+nvim .
+pacman -Syu xdg-desktop-portal
+dufo pacman -Syu xdg-desktop-portal
+sudo pacman -Syu xdg-desktop-portal
+waybar
+mv config{,.bak}
+mv config config.bak
+nvim .
+cd .config/waybar
+ll
+ls
+nvim .
+sudo pacman -Syu
+pacman -Sy code
+sudo pacman -Sy code
+sudo pacman -S code
+sudo pacman -Syu code
+yay -S visual-studio-code-bin<\n>
+ls
+cd dev
+mkdir adventofcode
+code adventofcode
+cargo new day_01
+cargo run
+cd day_01/
+cargo run
+sudo pacman -Syu
+chromium
+sudo pacman -Syu
+sudo pacman -Sy bluez bluez-utils
+sudo pacman -Sygo
+sudo pacman -Sy go
+sudo pacman -Sy gopls
+cd .config
+ll
+ls
+mkdir nvim
+cd nvim
+bluetoothctl
+nvim .
+ll
+ls
+nvim .
+lls
+ls
+mkdir after/plugin
+nvim .
+nv after/{ft,}plugin
+mv after/{ft,}plugin
+mv after/plugin after/ftplugin
+nvim .
+mv after/ftplugin after/plugin
+nvim .
+mkdir lua/plugin
+mv after/plugin/* lua/plugin
+rm -rf after
+nvim .
+sudo pacman -Sy tsserver
+sudo pacman -Sy typescript-language-server
+nvim .
+sudo pacman -Sy nodjs
+sudo pacman -Sy nodejs
+nvim .
+npm
+sudo pacman -Sy npm
+nvim .
+cd .config/nvim
+nvim .
+sudo pacman -Sy xclip
+nvim .
+bluetoothctl
+cd ../
+ls
+cd sway/
+ls
+cd ..
+ls
+cd waybar
+nvim .
+cd ..
+rg
+cargo installrg
+cargo install rg
+cargo install ripgrep
+rg eww .
+rg eww . | grep /
+ls
+ls -a
+cd git_repos/
+ls
+cd ..
+ls
+ls -a
+cd .config
+rg eww .
+cd sway
+ls
+nvim config
+ls
+ls -a
+cd ..
+ls
+ls waybar/
+which waybar
+vim /usr/bin/waybar
+history
+cd waybar/
+nvim .
+cd .config/nvim
+nvim .
+cd ../
+cd waybar
+nvim .
+mv config.bak config
+mv config config.bak
+mv config.bak config 
+nvim .
+mv config config.bak
+nvim .
+mv config.bak config 
+nvim .
+mv config config.bak
+nvim 
+nvim .
+mv config.bak config 
+mv config config.json
+nvim
+nvim .
+mv config.json config 
+nvim .
+mv config config.json
+nvim .
+mv config.json config 
+mv config config.json
+nvim .
+cp config config.json
+cp config.json config 
+nvim .
+rm config
+nvim .
+nvim config
+waybar -l trace
+rm config
+waybar -l trace
+nvim .
+ls
+cp config.json config 
+rm config
+nvim config
+mv config.json config.json.bak
+mv config config.json
+htop
+nvim .
+mv config.json config
+mv config config.json
+nvim .
+mv config.json config
+nvim .
+ifname
+essid
+sudo pacman -Sy ifnames
+sudo pacman -Sy ifname
+nvim .
+cd ../
+cd nvim
+nvim .
+cd ../waybar
+nvim .
+bluetoothctl
+cd
+mkdir .dotfiles
+cd .config
+ll
+ls
+cp -r waybar ~/.dotfiles/
+cp -r nvim ~/.dotfiles/

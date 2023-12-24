@@ -1,0 +1,67 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio", "network", "cpu", "memory", "disk", "temperature", "sway/language", "battery", "clock"],
+    "workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true
+    },
+    "window": {
+        "max-length": 50
+    },
+    "network": {
+        "format": "{essid} ({signalStrength}%) ",
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}%  {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": ""
+        },
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+        "format": "{:%Y-%m-%d %H:%M}"
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "interval": 10
+    },
+    "memory": {
+        "format": "{used:0.1f}/{total:0.1f} GB ",
+        "interval": 10
+    },
+    "disk": {
+        "mount": "/",
+        "format": "{specific_used:0.1f}GB/{specific_total:0.1f}GB ",
+        "unit": "GB",
+        "interval": 600
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 5
+    }
+}
